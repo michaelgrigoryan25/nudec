@@ -55,3 +55,6 @@ def AnalyzeImage():
             pass
 
     return jsonify(valid)
+
+if __name__ == "__main__":
+    app.run()
