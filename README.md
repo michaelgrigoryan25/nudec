@@ -6,30 +6,13 @@ This service uses [NudeNet](https://github.com/notAI-tech/NudeNet) created by [n
 
 ## Configuration
 
-Initialize a virtual environment using `virtualenv` and start it
+To start the service run the `run` command:
 
 ```bash
-# Install virtualenv
-pip3 install virtualenv
-
-# Create a virtual environment
-py -m virtualenv venv
-
-# Activate virtual environment
-source venv/scripts/activate
+make run
 ```
 
-Install all required packages
-
-```bash
-pip3 install -r requirements.txt
-```
-
-Finally start the service
-
-```bash
-flask run
-```
+This will install all the necessary dependencies and will start the service.
 
 ## Endpoint for checking
 
